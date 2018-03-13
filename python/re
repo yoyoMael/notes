@@ -1,0 +1,1 @@
+When using re.findall, we can use (.*?) to capture the wanted contents and the function will return those elements with a list

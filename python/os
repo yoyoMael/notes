@@ -1,0 +1,13 @@
+os.listdir(dir) can find all file in the current directory
+os.reanam(name1, name2) rename a file
+os.remove(file) remove a file
+os do not provide copy use shutil as a complement
+os.path.abspath()
+os.path.join(dir1, dir2) to form a new path
+os.path.split(dir) to split
+os.mkdir(dir)
+os.rmdir(dir)
+os.path.splitext(dir) to split the extension from the dir
+And other functions!!!
+os can also excute system command like in Terminal
+

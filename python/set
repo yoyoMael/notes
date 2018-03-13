@@ -1,0 +1,5 @@
+a = set('boy')
+a = set(['b', 'o', 'y'])
+set.add('python')
+set.remove('python')
+set() create a set of the obj this means there are no repeated element

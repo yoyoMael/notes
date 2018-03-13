@@ -1,0 +1,3 @@
+Freqdist is an object defined in NTLK
+
+Freqdist is a dict, keyword is words in text and values are their frequences

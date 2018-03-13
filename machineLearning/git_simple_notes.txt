@@ -1,0 +1,21 @@
+Use git add then git commit 
+
+git reflog to show all the version, including canceled
+
+git diff HEAD -- filename to show the difference of a file between workspace and version store
+
+git checkout -- filename to cancel all the modification of the file int the workspace
+
+git remote  update to fetch from a remote repo
+
+git remote add name git@github.com:yoyoMael/name.git to add a remote repo
+
+git push to push the local modification
+
+git branch -b name to create a new branch and switch to it, same as git branch name + git checkout name
+
+git branch -d name to delete a branch
+
+git branch -D name to force a deletion
+
+git checkout -b local_name remote_repo_name/remote_branch_name to create a local branch based on remote branch

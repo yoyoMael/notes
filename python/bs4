@@ -1,0 +1,34 @@
+DOM:
+parent(s)
+children(s)
+next_sibling(s),previous_sibling(s)
+next_element(s),previous_element(s)
+descendants
+contents
+string(s)
+comment
+attrs
+name
+.get('class')
+
+Search in the DOM
+1. find_all(name, attrs, recursive, text, **kwargs)
+name: a tag, string or a re or list or true(all tags) or a method
+
+kwargs: e.g. id = 'link'  class_ for class, can't search data-* attributes in html5, in the case use attrs(e.g. attrs = ["data-a":"link"])
+
+text: search the string in DOM, usage similar to name
+
+limit: limit the number of result
+
+recursive: recursive = False to dismiss the none direct descendants
+
+2. find ~~~~~(usage similar to find_all, but return the result directly, not a list)
+3. find_parents() find_parent(), same method but for parent elements.
+4.find_next_siblings() find_next_sibling()
+5. ***previous***()
+6.find_all_next find_all_previous find_next find_prebious
+
+7. with select(), we can use the selector in css7. with select(), we can use the selector in css7. with select(), we can use the selector in css7. with select(), we can use the selector in css7. with select(), we can use the selector in css7. with select(), we can use the selector in css7. with select(), we can use the selector in css
+
+isinstance(object, type) to judge whether it is the type.

@@ -1,0 +1,5 @@
+virtualenv: use --no-site-packages to prevent copying downloaded packages
+
+use source go to a environment and we can install other packages
+
+use deactivate to quit the env

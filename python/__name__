@@ -1,0 +1,2 @@
+If we excute a .py directly, __name__ = "__main__"
+Else if we import it, __name__ = the name of .py file

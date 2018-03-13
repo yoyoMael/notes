@@ -1,0 +1,5 @@
+Steps to make a spider:
+1. make headers, url, data  
+2. form a request,  request = urllib2.Request(url, data, headers), you will need urllib.urlencode(values) to form the right format of data, with a dictionnary values
+3. get response, response = urllib2.urlopen(request)
+4. Analyse the response, it's a string of the code of the page(HTML, etc.), you can use bs4 or re to analyse the page 
