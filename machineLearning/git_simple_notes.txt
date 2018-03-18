@@ -10,9 +10,13 @@ git remote  update to fetch from a remote repo
 
 git remote add name git@github.com:yoyoMael/name.git to add a remote repo
 
+git remote rm  to remove a existed remote repo(only locally)
+
 git push to push the local modification
 
 git branch -b name to create a new branch and switch to it, same as git branch name + git checkout name
+
+git branch -r -d to repo-name/branch-name  to remove a remote branch
 
 git branch -d name to delete a branch
 
