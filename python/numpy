@@ -1,0 +1,15 @@
+Use np.savetxt('filename', buf, delimiter = none) to save datas in an array
+
+np.multiply(arr1,arr2) is to multiply the array by corresponding element, arr1 * arr2 is the multiply operation between matrix
+
+np.max(arr) and np.min(arr) to get the max and the min
+
+np.reshape()
+
+np.save('filename'), np.load('filename')
+
+np.random.randn(amount ,size1,size2...)
+
+np.r_(arr1, arr2) to connect two arr from top to bottom(pile up two array)
+
+

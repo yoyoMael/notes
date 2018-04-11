@@ -1,0 +1,2 @@
+f.write(buffer)
+must use string or buffer, can't use int, list or other types
