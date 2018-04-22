@@ -1,0 +1,15 @@
+tf.Vraiable() Must have a value, when creating
+
+tf.Constant() Constant need not to tf.global_variables_initializer(), but Variable must be initialized before computation
+
+tf.placeholder() just decide the size when creating, used to get inputs
+
+tf.session()
+
+sess.run()
+
+tf.initialize_all_variables()
+
+tf.add(), tf.mulmat(), tf.mul(), tf.sub(), tf.assign() these will only change the value when you use sess.run()
+
+tf.multiply  tf.subtract  tf.negative is the current usable api, mul, sub, neg are abandoned
