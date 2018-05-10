@@ -1,6 +1,13 @@
 Use np.savetxt('filename', buf, delimiter = none) to save datas in an array
 
-np.multiply(arr1,arr2) is to multiply the array by corresponding element, arr1 * arr2 is the multiply operation between matrix
+
+********************
+np.multiply(arr1,arr2) is to multiply the array by corresponding element, arr1 * arr2 is the same, np.dot(arr1, arr2) is the multiply between matrix
+
+Attention: If you just use array type, there is no strict limit of dimensionduring dot operation, but using matrix has strict dimension requirement
+
+e.g.: a is 3*3, b = [1,2,3], if b is an array, then both np.dot(a,b) and np.dot(b,a) are correct, but if b is a matrix, then there will be a problem when doing np.dot(a,b)
+********************
 
 np.max(arr) and np.min(arr) to get the max and the min
 
@@ -12,4 +19,10 @@ np.random.randn(amount ,size1,size2...)
 
 np.r_(arr1, arr2) to connect two arr from top to bottom(pile up two array)
 
+U, sigma, VT = np.linalg.svd(matrix), svd returns the result of svd (three matrix)
+np.linalg.norm() to compute the norm of an array
+
+np.nonzero() return the non zero elements in the form [nonzero_indexList, zero_indexList]
+
+np.matrix() create a matrix for a matrix m , m.T is the transpose(array also has T), m.I is the inverse(array has no I)
 

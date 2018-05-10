@@ -1,0 +1,7 @@
+sklearn.datasets.samples_generator.makeblobs() generate some points
+
+skf = StratifiedKFold(n_splits = 3) --> skf.split(data, label)
+
+sklearn.model_selection.GridSearchCV(estimator, param_grid,...)
+
+Use hyperopt-sklearn!!!

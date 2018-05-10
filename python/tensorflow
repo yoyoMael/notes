@@ -8,8 +8,34 @@ tf.session()
 
 sess.run()
 
-tf.initialize_all_variables()
+tf.initialize_all_variables() replaced by tf.globla_variables_initializer()
 
 tf.add(), tf.mulmat(), tf.mul(), tf.sub(), tf.assign() these will only change the value when you use sess.run()
 
 tf.multiply  tf.subtract  tf.negative is the current usable api, mul, sub, neg are abandoned
+
+tf.nn.softmax()
+
+tf.reduce_sum() Compute the sum
+
+tf.log()
+
+tf.train.GradientDescentOptmizer(step).minimize(cross_entropy)
+
+tf.equal(var1, var2) to compare the elements in the Variables, return bool values in an array 
+
+tf.argmax() get the max 
+
+tf.reduce_mean() Compute the mean
+
+tf.truncated_normal(shape, stddev = ) to generate a gaussian variable with stddev the standard deviance
+
+tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding = 'SAME')
+
+tf.nn.max_pool()
+
+tf.reshape()
+
+tf.nn.relu()
+
+tf.nn.dropout()
