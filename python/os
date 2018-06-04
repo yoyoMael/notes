@@ -9,5 +9,7 @@ os.mkdir(dir)
 os.rmdir(dir)
 os.path.splitext(dir) to split the extension from the dir
 And other functions!!!
-os can also excute system command like in Terminal
+os.system()  can also excute system command like in Terminal other options: class subprocess, import commands, os.popen
 
+
+os.path.basename(sys.argv[0]).split(".")[0] to get the name of the file being excuted

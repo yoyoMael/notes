@@ -1,0 +1,10 @@
+autograd
+t.requires_grad, t.requires_grad_(), t.backward(tensor), t.grad, t.grad_fn
+with torch.no_grad(): to not track the history
+
+tensor
+tensor.view() to reshape the tensor
+
+torch.max(tensor, dim) return max value of each row in the given dim, also return the index of max in each row 
+
+{torch.utils.data.TensorDataset(data, label)} to create a dataset(with label) that can be resoluted by {torch.utils.data.DataLoader}

@@ -6,7 +6,7 @@ dict.iteritems(), dict.keys(), dict.items()
 You can use re.split(str) to split a string, to have better result
 
 list.remove()
-list.extend(seq) is like append, but add a list 
+list.extend(seq) is like append, but it add all element in the seq into list, not directly add seq
 list.insert(index, obj) to insert the obj into certain index
 
 str.count(char) to count the number of a character in a string

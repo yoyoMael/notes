@@ -1,0 +1,3 @@
+glob.glob('reg') to match the filenames with the reg 
+
+glob.iglob() to get a iteraor

@@ -1,6 +1,5 @@
 Use np.savetxt('filename', buf, delimiter = none) to save datas in an array
 
-
 ********************
 np.multiply(arr1,arr2) is to multiply the array by corresponding element, arr1 * arr2 is the same, np.dot(arr1, arr2) is the multiply between matrix
 
@@ -26,3 +25,4 @@ np.nonzero() return the non zero elements in the form [nonzero_indexList, zero_i
 
 np.matrix() create a matrix for a matrix m , m.T is the transpose(array also has T), m.I is the inverse(array has no I)
 
+np.whera(array judge, value, other_value ), this will judge every element in the array , if True, change it to value, if False, change it to other_value, this doesn't change the array right in place
