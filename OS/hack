@@ -1,0 +1,7 @@
+finger [host]  can test the connection and get some user information
+
+showmount
+
+stat [filename]   to view the 'access time' information of file 
+
+

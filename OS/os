@@ -1,0 +1,58 @@
+apropos [keyword] to search manual!!
+
+
+ps to show processes
+
+find to find files, with many options
+
+| used to redirect the output of a command to the input of another command
+e.g. who|grep Yoyo, will find Yoyo in the output of who, instead of a file
+e.g. ls *.py|sort will sort all .py files in the dir
+
+> to redirect but will overwrite the file
+
+>> to redirect but just add text
+
+\ to split long command into several lines
+
+TCP/IP tools:
+nslookup traceroute netstat ping nbstat
+
+sudo -i or sudo su      to switch to root
+
+cat/less/more   three ways to view a file
+
+
+--------------------
+ls    in detail
+
+     --cc      Use time when file status was last changed for sorting (--tt) or
+             complete time information for the file, including month, day,
+     --tt      Sort by time modified (most recently modified first) before sort-
+     --uu      Use time of last access, instead of last modification of the file
+     --UU      Use time of file creation, instead of last modification for sort-
+     mines the file time used.
+     If the modification time of the file is more than 6 months in the past or
+     TZ              The timezone to use when displaying dates.  See
+--------------------
+
+nice    to execute a process in a altered priority
+
+du    to view the situation of disk
+df    to display the freedisk space
+
+chdir can also change dir
+
+limit to display resource limit    (ulimit)
+
+syslog to display system log
+
+ to suspend a job
+
+jobs   to display suspended jobs
+
+ps -e    will show all processes
+
+kill [No] to kill a process
+
+fg, bg  to continue a job in front/background
