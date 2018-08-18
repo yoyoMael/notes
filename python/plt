@@ -1,2 +1,17 @@
 plt.scatter(x,y,s=20,c='b',marker='o',...)
 
+plt.cm colormap
+
+plt.scatter(ax1, ax2, c, cmap, ...)
+
+plt.set_xlim(min,max)  plt.set_ylime(min, max) limit the range of coordinates
+
+ax.contourf(arr1, arr2, label, cmap, alpha,...) to dye the point with colormap by their label
+
+plt.setxticks(), plt.set_yticks
+
+plt.text()
+plt.tight_layout()
+plt.fill_between()
+plt.legend(loc="best"), to make legend with a flexible position
+plt.set_title()  set the title of figure

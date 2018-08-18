@@ -56,3 +56,7 @@ ps -e    will show all processes
 kill [No] to kill a process
 
 fg, bg  to continue a job in front/background
+
+talk   to talk to another user...
+
+.zshrc to confg zsh, .bash_profile and .bashrc to config bash csh,ksh etc. the same way

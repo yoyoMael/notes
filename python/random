@@ -1,0 +1,10 @@
+random.shuffle(sequence) shuffle the sequence , will change the source data
+
+random.choice(sequence) choose a element from the sequence
+random.sample(sequence, k) choose k elements, and return the result sequence, don't change the original sequence
+
+random.randint(inf, sup) get a int
+
+random.uniform(inf, sup) get a float
+
+random.randrange(start, stop, step)

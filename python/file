@@ -1,2 +1,4 @@
 f.write(buffer)
 must use string or buffer, can't use int, list or other types
+
+when you read 'read' methods, you'd better add the kwd parameter 'encoding = 'utf-8''

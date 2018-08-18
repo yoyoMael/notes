@@ -1,4 +1,5 @@
-os.listdir(dir) can find all file in the current directory
+os.listdir(dir) can find all file in the current directory | os.walk(dir) return an iterator of all the file in the dir
+
 os.reanam(name1, name2) rename a file
 os.remove(file) remove a file
 os do not provide copy use shutil as a complement
@@ -13,3 +14,8 @@ os.system()  can also excute system command like in Terminal other options: clas
 
 
 os.path.basename(sys.argv[0]).split(".")[0] to get the name of the file being excuted
+os.path.isfile(name) to judge if the name is a file
+
+os.path.exists(name) to judge if the name exist in the current dir, no matter file or folder
+
+

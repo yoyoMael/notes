@@ -1,0 +1,11 @@
+import multiprocessing as mp
+
+1. p = mp.Process(target=fun, args=(a,b,c,)), p.start(), p.join()
+
+2. p = mp.Pool(n) , p.close(), p.join() , res = p.apply_async() > res.get(timeout = time)
+
+3. q = mp.Queue(), q.put(), q.get()
+
+4. conn1, conn3 = mp.Pipe()   conn.recv()  conn.send()  conn.close()
+
+5. 

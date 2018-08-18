@@ -25,4 +25,17 @@ np.nonzero() return the non zero elements in the form [nonzero_indexList, zero_i
 
 np.matrix() create a matrix for a matrix m , m.T is the transpose(array also has T), m.I is the inverse(array has no I)
 
-np.whera(array judge, value, other_value ), this will judge every element in the array , if True, change it to value, if False, change it to other_value, this doesn't change the array right in place
+np.where(array judge, value, other_value ), this will judge every element in the array , if True, change it to value, if False, change it to other_value, this doesn't change the array right in place
+
+np.flat([indexlist]) = value  to assign value to certain index, regarding np as a 1d array.
+
+np.ndim return the dimension(e.g. 3d ), np.shape the shape(e.g. 2*3*4), np.size return total size(e.g. 50 element in total)
+
+np.transpose(), np.T
+------------------------------
+np.random is more suitable than original random!!!!!
+------------------------------
+
+np.row_stack((arr1,arr2)), np.column_stack((arr1,arr2)), np.insert() ,  np.append() works like extend of a list, if you want something like list.append(), use these methods!!!
+
+np.meshgrid(arr1, arr2)

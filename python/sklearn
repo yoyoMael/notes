@@ -5,3 +5,14 @@ skf = StratifiedKFold(n_splits = 3) --> skf.split(data, label)
 sklearn.model_selection.GridSearchCV(estimator, param_grid,...)
 
 Use hyperopt-sklearn!!!
+------------------------------
+sklearn.datasets
+
+sklearn.datasets.make_classification()  is a really good tool to test an algorithm, you can make your own desired data with it
+
+
+------------------------------
+sklearn.model_selection
+
+sklearn.model_selection.learning_curve()  to plot the learning curve
+------------------------------

@@ -1,0 +1,1 @@
+use %time and %timeit to get the excution time, by this way, you may pick the most fast method among the options, %timeit will tell you a mean excution time suitable for examining those high frequency simple computation.
